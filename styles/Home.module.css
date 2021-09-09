@@ -1,81 +1,87 @@
+
+
 .container {
   border: 0;
   margin: 0;
+  background: #FAFBFD;
 }
 
-.main {
-  width: 100%;
-  height: 120vh;
-  background-image: url('../public/Top_Wave.svg');
-  background-repeat: no-repeat;
-  background-size:cover;
-}
 
 .logo {
   background-image: url('../public/Yume_logo.svg');
   background-repeat: no-repeat;
   background-size:contain;
-  height: 100%;
+  width: 20vw;
 }
 
 .Toolbox {
   padding-top: 2em;
-  margin: 0 4em 0 4em;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  height: 5em;
+  margin-left: 3%;
+  display: flex;
 }
 
 .Toolbox button {
   font-family: 'Poppins';
-  font-weight: 500;
+  font-weight: 600;
   border: none;
   letter-spacing: 0.09em;
   background:none;
-  color: aliceblue;
-  font-size: 1em;
+  color: #000;
+  font-size: 1.1vw;
 }
 
 .Toolbox .login {
   border: none;
   font-weight: bold;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #444444;
-  font-size: 1em;
-  padding: 0em 4em;
-  margin-left: 6em;
+  border-radius: 0.3em;
+  background-color: #37C2CA;
+  color: #fff;
+  font-size: 1.3vw;
+  padding: 1vw 6vw;
+  margin-left: 6%;
   letter-spacing: 0.05em;
 }
 
 .buttonSection {
   display: flex;
-  height: 100%;
+  width: 75%;
+  justify-content: flex-end;
 }
 
 .buttonSection button {
-  margin-left: 1.5em;
+  display: flex;
+  align-self: center;
+  padding: 1vw 1vw;
+  
 }
 
 .grid {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 .block1 {
   display: flex;
   flex-direction: column;
   justify-self: center;
-  margin-top: 14em;
+  margin-top: 15%;
   font-weight: 700;
-  width: 50%;
-  margin-left: 5em;
+  width: 100%;
+}
+
+.triangle0 {
+  background-image: url('../public/Polygon_0.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 10vw;
+  width: 16vw;
+  height: 16vw;
 }
 
 .block1 p {
   color: #444;
-  font-size: 1.2em;
+  font-size: 1.3vw;
   font-family: 'Poppins';
   letter-spacing: 0.01px;
 }
@@ -83,56 +89,66 @@
 .Text2 {
   color:"#444"; 
   font-weight:400;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
+  margin-top: 0.4em;
+  
 }
 
 .block1 .mainText {
-  font-size: 3.5em;
+  font-size: 4vw;
   line-height: 1.3em;
 }
 
 .block1 button {
-  margin-top: 2em;
-  width: 35%;
+  width: 20vw;
   margin: 0;
   background-color: #A561C5;
   color: #fff;
-  padding: 0.6em 2em;
+  padding: 1.5vw 0vw;
   border: 0;
   border-radius: 5px;
-  font-size: 1.5em;
+  font-size: 1.2vw;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 .block2 {
-  display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
 }
 
 .block2 .VR_Image {
-  background-image: url('../public/VR_Image.svg');
+  background-image: url('../public/virtual-reality-logo.svg');
   background-repeat: no-repeat;
   background-size:contain;
-  padding: 5em;
-  height: 100%;
-  margin-top: 8em;
-  margin-left: 3em;
+  height: 80%;
+  margin-top: 5em;
 }
 
 .block2 .Informations {
-  width: 10%;
-  height: 15%;
+  width: 6vw;
+  height: 6vw;
   border-radius: 5em;
   border: 0;
-  background-color: #5393C0;
+  background-color: #37C2CA;
   color: #fff;
-  font-size: 2.5em;
-  margin-left: 12em;
+  font-size: 3vw;
+  float: right;
+  margin-top: 70%;
+  margin-right: 5vh;
 }
 
 .Video {
   display: flex;
   margin-left: 5em;
+  
+  font-size: 1.3vw;
+}
+
+.Video .text {
+  font-size: 1.3vw;
+  font-family: 'Poppins';
+  font-weight:500;
 }
 
 .Video button {
@@ -147,36 +163,228 @@
   background-color: #fff;
 }
 
-.appExample {
+.triangle {
+	display: inline-block;
+  width: 40%;
+  height:40vw;
+  background-image: url('../public/Polygon_2.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-top: 7vw;
+}
+
+.site, .Vr_Project {
+  display: flex;
+}
+
+.Vr_Project .image {
+  width: 45vw;
+  height:40vw;
+  background-image: url('../public/VR_Rift.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.TextSite, .Vr_Project .TextSite {
+  font-family: Poppins;
+  align-self: center;
+  margin-left: 7vw;
+}
+
+.TextSite h1, .Vr_Project h1 {
+  color: #444444;
+  font-size: 4vw;
+}
+.Vr_Project h1{font-size: 3vw;}
+.TextSite p, .Vr_Project p {
+  color: #616161;
+  font-size: 1.5vw;
+}
+.Vr_Project p{color:#444}
+.softSkills {
+  display: flex;
+  font-family: Poppins;
+  align-self: center;
+  margin-left: 6vw;
+  margin-top: 6vw;
+  font-size: 1.3vw;
+  color: #616161;
+}
+
+.softSkills .text {
+  align-self: center;
+}
+
+.softSkills h1 {
+  color: #616161;
+  font-size: 3.3vw;
+
+}
+
+.Polygon3 {
+  width: 40%;
+  height:35vw;
+  background-image: url('../public/Polygon_3.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+
+}
+
+
+.Challengs .Top {
+  margin-top: 6vw;
+  font-size: 1.4vw;
+  color: #616161;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Challengs .Top p {
+  margin-top: 1vw;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.Challengs .Bottom {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  width: 85%;
+  margin-left: 12%;
+}
+
+.Challengs .Bottom .Card {
+  background-color: #fff;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 1.5em;
+  box-shadow: 0 0.2vw 0.6vw rgba(85, 102, 158, 0.644);
+}
+
+.Picture1, .Picture2, .Picture3 {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+  background-size:contain;
+  align-items: center;
+}
+
+.Picture1 {
+  background-image: url('../public/Picture1.svg');
+}
+.Picture2 {
+  background-image: url('../public/Picture2.svg');
+}
+.Picture3 {
+  background-image: url('../public/Picture3.svg');
+  width: 40%;
+  margin-left: 30%;
+}
+
+
+.Challengs .Bottom .Card p {
+  font-family: Poppins;
+  color: #444;
+  font-weight: bold;
   display: flex;
   width: 100%;
+  height: 4vw;
+  align-items:center;
+  margin-left: 4vw;
+  font-size: 1.3vw;
+
 }
-.cellphone {
+
+.useGuide {
+  margin-top: 8vw;
+  width: 100%;
   display: flex;
+}
+
+.useGuide .text {
+  font-family: Poppins;
+  margin-left: 6vw;
+  font-size: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+}
+
+.useGuide .text h1 {
+  font-family: Poppins;
+  color: #444;
+  font-size: 3vw;
+}
+
+.useGuide .text p {
+  font-family: Poppins;
+  color: #444;
+  font-size: 1.3vw;
+}
+
+.useGuide .text button {
   width: 50%;
+  font-family: Poppins;
+  padding: 1.5vw;
+  margin-top: 2vw;
+  border: 0;
+  background-color: #A561C5;
+  border-radius: 0.8em;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
-.topWaveDetail {
-  background-image: url('../public/Vector_344.svg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  width: 30%;
-  height: 100%;
+.useGuide .Card {
+  width: 100%;
 }
 
-.squareDetail {
-  background-image: url('../public/Square.svg');
+.SquareDetail {
+  background-image: url('../public/SquareDetail.svg');
   background-repeat: no-repeat;
   background-size:contain;
-  width: 90%;
-  height: 90vh;
+  width: 40vw;
+  height: 40vw;
+  background-color: #C79EDB;
+  border-radius: 5em 0 0 5em;
+  float: right;
 }
 
-.bottomWaveDetail {
-  background-image: url('../public/Vector_344.svg');
+.Polygon4 {
+  background-image: url('../public/Polygon_4.svg');
   background-repeat: no-repeat;
   background-size:contain;
-  width: 30%;
-  height: 100%;
-  transform: rotate(180deg);
+  width: 10vw;
+  height: 30vw;
+  float: right;
+  margin-top: 5vw;
+}
+
+.Vr_Project .Polygon5 {
+  margin-top: 20vw;
+  width: 16vw;
+  height: 16vw;
+  transform: rotate(70deg);
+}
+
+.Vr_Project .TextSite h1 {
+  font-family: Poppins;
+
+}
+
+.Vr_Project .TextSite p {
+  font-family: Poppins;
+  color: #444;
+  font-size: 1.3vw;
+
+}
+
+.footer {
+  width: 100%;
+  height: 10vw;
+  background-color: #A561C5;
 }

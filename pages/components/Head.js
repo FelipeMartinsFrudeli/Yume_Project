@@ -14,7 +14,7 @@ export default function Home() {
           <button>Conteúdos</button>
           <button>Desafios</button>
           <button>Materiais</button>
-          <button>Contato</button>
+          <button>Quem<nobr/>&nbsp;somos</button>
           <button className={styles.login}>Entrar</button>
         </div>
       </div>
