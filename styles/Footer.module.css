@@ -1,0 +1,94 @@
+.footer h1, .footer p, .footer button {font-family: 'Poppins';}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #A561C5;
+}
+
+.CardList {
+    display: flex;
+}
+
+.Card, .CardContacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+.CardContacts {margin-left: 18vw; margin-top: 1.5vw;}
+.Card h1, .CardContacts h1 {
+    font-size: 1.6vw;
+    padding-top: 1vw;
+    margin-left: 0.4vw;
+    margin-bottom: 0.4vw;
+    color: aliceblue;
+    font-weight: 500;
+}
+.CardContacts h1 {font-weight: 300;}
+.Card button {
+    background: none;
+    color: aliceblue;
+    align-self: flex-start;
+    border: none;
+    margin-bottom: 0.1vw;
+    font-weight: 200; font-size: 1.5vw;
+}
+
+.CardContacts .box {
+    width: 10vw;
+    height: 3.5vw;
+}
+.box button {
+    width: 50%;
+    height: 100%;
+    background: none;
+    border: 0;
+}
+
+.InstagramIcon, .YoutubeIcon {
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+}
+.InstagramIcon {background-image: url('../images/InstagramIcon.svg');}
+.YoutubeIcon {background-image: url('../images/YoutubeIcon.svg');height: 90%;}
+
+.imgLogo {
+    background-image: url('../images/YumeLogo.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    color: aliceblue;
+    width: 15vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+.line {
+    width: 95%;
+    padding: 0.05vw;
+    margin: 0.5vw 0;
+    margin-top: 1.5vw;
+    background-color: aliceblue;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    font-size: 1.2vw;
+    margin-bottom: 0.2vw;
+    color: aliceblue;
+    border: 0;
+    font-weight: 300;
+}
+.bottom p {margin-right: 13.5vw; margin-left: 2vw;}
+.bottom button {
+    background: none;
+    align-self: center;
+    margin-left: 2vw;
+}
