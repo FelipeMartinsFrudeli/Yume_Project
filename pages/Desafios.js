@@ -9,8 +9,9 @@ export default function Home() {
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
-      <HeadComponent/>
+      
       <div className={styles.Container}>
+          <HeadComponent/>
         <div className={styles.Card}>
             <div className={styles.RobotImage}></div>
             <div className={styles.Text}>
@@ -67,8 +68,8 @@ export default function Home() {
                   <h1>Procura-se <a style={{color:'#37C2CA'}}>memórias</a></h1>
                   <p>Durante uma expedição arqueológica, você encontra um<br/> 
                   fantasma que perdeu as memórias de quem foi em vida.<br/> 
-                  Explore cenários, descubra segredos da sua história e ajude-o<br/> 
-                  a descansar em paz, após descobrir quem ele realmente é. </p>
+                  Explore cenários, descubra segredos da sua história e<br/>  
+                  ajude-o a descansar em paz, após descobrir quem ele<br/> realmente é. </p>
                   <div className={styles.TopicCards}>
                       <button>Empatia</button>
                       <button>Resolução de problemas</button>

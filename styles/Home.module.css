@@ -15,9 +15,13 @@
 }
 
 .Toolbox {
-  padding-top: 2em;
-  margin-left: 3%;
+  padding-top: 1.4em;
+  padding-left: 4vw;
   display: flex;
+  background: rgba(255, 255, 255, 0.85);
+  position:fixed;
+  padding-bottom: 0.5vw;
+  width: 100%;
 }
 
 .Toolbox button {
@@ -68,6 +72,7 @@
   margin-top: 15%;
   font-weight: 700;
   width: 100%;
+  padding-top: 5vw;
 }
 
 .triangle0 {
@@ -115,6 +120,7 @@
 .block2 {
   flex-direction: column;
   width: 100%;
+  padding-top: 5vw;
 }
 
 .block2 .VR_Image {
@@ -126,16 +132,17 @@
 }
 
 .block2 .Informations {
-  width: 6vw;
-  height: 6vw;
+  width: 5vw;
+  height: 5vw;
   border-radius: 5em;
   border: 0;
   background-color: #37C2CA;
   color: #fff;
   font-size: 3vw;
   float: right;
-  margin-top: 70%;
-  margin-right: 5vh;
+  margin-top: 28%;
+  margin-left: 80vh;
+  position:fixed;
 }
 
 .Video {

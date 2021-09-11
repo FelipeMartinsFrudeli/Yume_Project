@@ -13,10 +13,8 @@ export default function Home() {
     <div className={styles.Toolbox}>
     <Link href="/"><div className={styles.logo}></div></Link>
         <div className={styles.buttonSection}>
-          <button>Conteúdos</button>
+          <Link href="/Conteudos"><button>Conteúdos</button></Link>
           <Link href="/Desafios"><button>Desafios</button></Link>
-          <button>Materiais</button>
-          <button>Quem<nobr/>&nbsp;somos</button>
           <Link href="/Login"><button className={styles.login}>Entrar</button></Link>
         </div>
       </div>

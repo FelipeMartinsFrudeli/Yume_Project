@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+
+.image {
+    margin-left: 5vw;
+    height: 40vw;
+    width: 50%;
+    background-image: url('../images/ErrorIcon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Container h1 {
+    color: #333;
+    font-weight: 500;
+    font-size: 2.2vw;
+}
+
+.FooterBox {
+    margin-top: 50vw;
+}

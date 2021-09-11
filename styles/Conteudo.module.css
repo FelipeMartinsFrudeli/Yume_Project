@@ -1,0 +1,116 @@
+.Container h1, .Container p, .Container button {font-family: 'Poppins';}
+.Container {background: #FAFBFD;}
+.Card {
+    padding-top: 8vw;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.Box {
+    width: 35%;
+    height: 40vw;
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    #9d65b8 0%, #c295d8 100%);
+    border-top-left-radius: 4em;
+    border-bottom-left-radius: 4em;
+}
+
+.TriangleDetail {
+    background-image: url('../images/Conteudo/SquareDetail.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Text {
+    width: 55%;
+    height: 100%;
+    align-self: center;
+    padding-bottom:5vw;
+}
+.Text h1 {
+    font-size: 4vw;
+    color: #444;
+}
+.Text p {
+    font-size: 1.5vw;
+    color: rgba(68, 68, 68, 0.9);
+}
+
+.Title {
+    font-size: 4vw;
+    color: #444;
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+
+.Grid {
+    
+  display: flex;
+}
+
+.Grid h1 {
+    color: #444;
+    font-size: 2.6vw;
+}
+.Grid p {
+    color: rgba(68, 68, 68, 0.9);
+}
+
+.MiniCard {
+    background: #FAFBFD;
+    box-shadow: -1px 8px 14px rgba(145, 109, 196, 0.3);
+    border-radius: 5em;
+    height: 42vw;
+    margin-bottom: 2vw;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 3vw;
+    font-size: 1.3vw;
+}
+.MiniCard h1, .MiniCard p {
+    align-self: center;
+    text-align: center;
+}
+.MiniCard button {
+    margin: 1vw 2vw;
+    padding: 1vw 0;
+    background-color: #A561C5;
+    color: #fff;
+    border: 0;
+    border-radius: 5em;    
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+
+.Collum1 .image1,.Collum1 .image2,.Collum2 .image1,.Collum2 .image2 {background-repeat: no-repeat;background-size:contain; margin: 0 2vw; width: 80%;  height:20vw;}
+.Collum1 {
+    
+    margin: 5vw 0 10vw 14vw;
+}
+.Collum1 .image1 {
+    background-image: url('../images/Conteudo/Network.svg');
+    margin-top: 2vw;
+}
+.Collum1 .image2 {
+    background-image: url('../images/Conteudo/Graphics.svg');
+    margin-top: 2vw;
+}
+
+.Collum2 {
+    margin-left: 15vw;
+}
+.Collum2 .image1 {
+    background-image: url('../images/Conteudo/Speaker.svg');
+    margin-top: 2vw;
+}
+.Collum2 .image2 {
+    background-image: url('../images/Conteudo/LightBumb.svg');
+    margin-top: 2vw;
+}

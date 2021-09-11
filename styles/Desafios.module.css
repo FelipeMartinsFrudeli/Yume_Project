@@ -5,6 +5,7 @@
     background-image: url('../images/Desafios/Background.svg');
     background-repeat: no-repeat;
     background-size:contain;
+    background: #FAFBFD;
 }
 
 .Card {
@@ -13,10 +14,10 @@
     margin-left: 6%;
     margin-top: 4vw;
 }
-.RightAdjust .Card { width: 90%; margin-left: 5%;}
-.GhostCard .Card {margin-left: 4%; width: 100%;}
+.RightAdjust .Card { width: 90%; margin-left: 2%;}
+.GhostCard .Card {margin-left: 4%; width: 95%;}
 .ChessCard .Card {
-    width: 95%;
+    width: 98.035%;
     margin-top: 0vw;
 }
 .FingerCard .Card {
@@ -26,13 +27,13 @@
 .Card h1 { 
     font-weight: 700;
     color: #444;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
 }
 
 
 .Card p {
     margin-top: 1vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color: #444;
 }
 
@@ -103,13 +104,12 @@
 }
 
 .AreaPart {
-    height: 12vw;
+    height: 13vw;
     width: 100%;
 }
 .TrianglePart {
     height: 100%;
-    width: 30%;
-    margin-top: 5vw;
+    width: 34%;
     float: right;
     background-image: url('../images/Desafios/Triangle.svg');
 }
