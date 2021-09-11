@@ -1,0 +1,111 @@
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Container h1, .Container p { font-family: 'Poppins'; margin-left: 8.2vw; font-size: 1.3vw;}
+.Container h1{ color: #333; font-weight: 600; font-size: 3vw; margin-top: 10vh; margin-left: 7.5vw; }
+
+.Page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+.Square1, .Square2 {
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+}
+.Square1 {
+    background-image: url('../images/login/Polygon_1.svg');
+    width: 100%;
+}
+.Square2 {
+    background-image: url('../images/login/Polygon_2.svg');
+    width: 100%;
+}
+
+.icon {
+    margin-left: 2vw;
+    width: 2.5vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+ .EmailFrame, .PasswordFrame {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    height: 4vw;
+    background: none;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.EmailFrame input, .PasswordFrame input {
+    border: 0;
+    font-size: 2vw;
+    font-family: 'Poppins';
+    background: none;
+    margin-left: 2vw;
+    width: 100%;
+}
+
+.LastPassword {
+    width: 20vw;
+    font-family: 'Poppins';
+    height: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+    float: right;
+    background: none;
+    border: none;
+    font-size: 1.4vw;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.EmailFrame input::placeholder, .PasswordFrame input::placeholder {
+    color: #333333;
+    font-weight: 500;
+}
+
+.EmailFrame input:focus, .PasswordFrame input:focus {
+    outline: none;
+}
+
+.EmailFrame .icon {
+    background-image: url('../images/login/Email_icon.svg');
+    margin-top: 0.6vw;
+
+}
+
+.PasswordFrame .icon {
+    background-image: url('../images/login/Password_icon.svg');
+    margin-top: 0.8vw;
+}
+
+.ButtonFrame {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vw;
+    margin-top: 2vw;
+}
+
+.ButtonFrame button {
+    width: 100%;
+    border-radius: 0.6em;
+    border: 0.2vw solid #A561C5;
+    color: #A561C5;
+    font-size: 2vw;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
