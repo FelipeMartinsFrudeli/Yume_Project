@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src=".\images\YumeLogoRoxa.svg"/>
 
-## Getting Started
+## **Yume: Educação do Futuro**
 
-First, run the development server:
+## Sobre o projeto
+<p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+O projeto foi criado durante o **Hackatech** da Fundação Estudar. O desafio da trilha da **educação** era criar uma solução para algum problema educacional de Technópolis que é uma Smart Citie em um contexto de grandes avanços tecnológicos.👩‍💻🤖 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O elevado uso da tecnologia fez as pessoas se **desconectarem** de situações do mundo real que contribuíram para desenvolver habilidades humanas de cunho sócio emocional: as chamadas **soft skills**. Nessa realidade soft skills passam a ser habilidades não mais humanas, mas artificiais. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Pensando nisso surgiu a **Yume**, uma **plataforma de ensino** e aprendizagem de soft skills que permite que os usuários aprendam com ebooks e acessem quizzes e desafios de perguntas e respostas para exercitar suas habilidades.📚
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Instalação
 
-To learn more about Next.js, take a look at the following resources:
+* Em seu servidor local baixe o projeto usando `git clone`
+* Rode os seguintes comando npm `run dev`
+ou 
+`yarn dev`
+* Abra http: // localhost: 3000 com seu navegador para ver o resultado dessa incrível plataforma.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### **1. Prototipação** 
+Foi usado a ferramenta figma para o desenvolvimento das telas, ebooks e de artes para mídias sociais, utilizou-se imagens e ícones da comunidade do Figma.<br>
+[Acesse aqui](https://www.figma.com/file/C0Ah4RTO2TfoonGvU1mVjP/Hackatech?node-id=7%3A3)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### **2. Desenvolvimento do Site** 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Autores
+
+* Felipe Martins Frudeli
+* Geovani Porto de Deus
+* Hanna Vitória Oliveira Silva
+* Renan xxxxxxxxxxxxxxxxxxxxxxxx
+* Yasmin Kaline de Carvalho Silva
+
+<hr>
+<img src=".\images\Telas.svg"/>
+
+
+<hr/>
+<h3 align="center">Conecte-se conosco</h3>
+<p align="center">
+<a href="https://www.instagram.com/plataformayume/"><img title="LinkedIn" src=".\images\Instagram.png" widht=0px height=40px></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/channel/UCSzIkrw9IifSI89yDjy1BTg"><img title="Instagram" src=".\images\Youtube.png" widht=0px height=40px/></a>&nbsp;&nbsp;
+</p>
+</p>
