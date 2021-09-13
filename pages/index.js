@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className={styles.Card}>
             <div className={styles.SquareDetail}>
-            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/TF1oH2UC1l4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/TF1oH2UC1l4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
             <div className={styles.VideoCard}>
               
