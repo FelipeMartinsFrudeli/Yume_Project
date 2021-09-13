@@ -23,11 +23,11 @@ export default function Home() {
                 desvendar esse mistério, para isso você terá de seguir as<br/> 
                 pistas pessoalmente. </p>
                 <div className={styles.TopicCards}>
-                    <button>Fisica</button>
-                    <button>Geografia</button>
-                    <button>Programação</button>
+                    <button>Liderança</button>
+                    <button>Criatividade</button>
+                    <button>Proatividade</button>
                     <button>Resolução de problemas</button>
-                    <button>Tecnologias 5G</button>
+                    <button>Empatia</button>
                     <button>Tomadas de decisões</button>
                     <button>Comunicação</button>
                 </div>
@@ -47,11 +47,11 @@ export default function Home() {
                         desvendar esse mistério, para isso você terá de seguir as<br/> 
                         pistas pessoalmente. </p>
                         <div className={styles.TopicCards}>
-                            <button>Fisica</button>
+                            <button>Inovação</button>
                             <button>Geografia</button>
                             <button>Programação</button>
                             <button>Resolução de problemas</button>
-                            <button>Tecnologias 5G</button>
+                            <button>Colaboração</button>
                             <button>Tomadas de decisões</button>
                             <button>Comunicação</button>
                         </div>
@@ -76,9 +76,11 @@ export default function Home() {
                   <div className={styles.TopicCards}>
                       <button>Empatia</button>
                       <button>Resolução de problemas</button>
-                      <button>História</button>
-                      <button>Raciocinio lógico</button>
+                      <button>Flexibilidade</button>
+                      <button>Sociabilidade</button>
                       <button>Comunicação</button>
+                      <button>Adaptação</button>
+                      <button>Gestão do tempo</button>
                   </div>
                   <div className={styles.PlayButton}>
                         <Link href="/QuestList/Quest3"><button>Jogar</button></Link>
