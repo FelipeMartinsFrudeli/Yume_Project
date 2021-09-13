@@ -18,9 +18,9 @@ Pensando nisso surgiu a **Yume**, uma **plataforma de ensino** e aprendizagem de
 
 * Em seu servidor local baixe o projeto usando `git clone`
 * Entre na pasta `cd Yume_Project`
-* Rode os seguintes comando npm `run dev`
-ou 
-`yarn dev`
+* Rode os seguintes comandos
+* 1°`npm install`
+* 2°`npm run dev` ou `yarn dev`
 * Abra `http://localhost:3000` com seu navegador para ver o resultado dessa incrível plataforma.
 
 ## Tecnologias
