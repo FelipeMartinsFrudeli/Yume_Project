@@ -17,10 +17,11 @@ Pensando nisso surgiu a **Yume**, uma **plataforma de ensino** e aprendizagem de
 ## Instalação
 
 * Em seu servidor local baixe o projeto usando `git clone`
+* Entre na pasta `cd Yume_Project`
 * Rode os seguintes comando npm `run dev`
 ou 
 `yarn dev`
-* Abra `http: // localhost: 3000` com seu navegador para ver o resultado dessa incrível plataforma.
+* Abra `http://localhost:3000` com seu navegador para ver o resultado dessa incrível plataforma.
 
 ## Tecnologias
 
@@ -30,7 +31,7 @@ Foi usado a ferramenta figma para o desenvolvimento das telas, ebooks e de artes
 
 
 #### **2. Desenvolvimento do Site** 
-Foi usado 
+Foi usado o framework react junto com o nextjs, que é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. Escolhemos pela sua praticidade e disponibilidade de um link para o site sem custos de domínio.
 <br>
 
 
