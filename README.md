@@ -20,7 +20,7 @@ Pensando nisso surgiu a **Yume**, uma **plataforma de ensino** e aprendizagem de
 * Entre na pasta `cd Yume_Project`
 * Rode os seguintes comandos
 * 1°`npm install`
-* 2°`npm run dev` ou `yarn dev`
+* 2°`npm run dev` ou `yarn dev`(caso tenha yarn)
 * Abra `http://localhost:3000` com seu navegador para ver o resultado dessa incrível plataforma.
 
 ## Tecnologias
