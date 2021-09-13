@@ -1,6 +1,13 @@
 .Container h1,.Container p,.Container button{font-family: 'Poppins';}
 .Container, .Card {
     width: 100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100%;
+}
+
+.Container {
+
 }
 
 .Card {
