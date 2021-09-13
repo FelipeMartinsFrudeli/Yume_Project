@@ -3,6 +3,7 @@ import HeadComponent from './components/Head';
 import Footer from './components/Footer';
 
 import styles from '../styles/Conteudo.module.css';
+import Link from 'next/link';
 
 export default function Home() {
     return (
@@ -32,7 +33,7 @@ export default function Home() {
               importante para trazer uma<br/>
               visibilidade para seu trabalho e<br/> 
               garantir boas oportunidades.</p>
-              <button className={styles.Dowload}>Baixar</button>
+              <Link href="/404"><button className={styles.Dowload}>Baixar</button></Link>
             </div>
             <div className={styles.MiniCard}>
               <div className={styles.image2}></div>
@@ -42,7 +43,7 @@ export default function Home() {
               importante habilidade para<br/> 
               manter relacionamentos saudáveis<br/>
               e duradouros?</p>
-              <button className={styles.Dowload}>Baixar</button>
+              <Link href="/404"><button className={styles.Dowload}>Baixar</button></Link>
             </div>
           </div>
           <div className={styles.Collum2}>
@@ -54,7 +55,7 @@ export default function Home() {
               importante habilidade para<br/> 
               manter relacionamentos saudáveis<br/>
               e duradouros?</p>
-              <button className={styles.Dowload}>Baixar</button>
+              <Link href="/404"><button className={styles.Dowload}>Baixar</button></Link>
             </div>
             <div className={styles.MiniCard}>
               <div className={styles.image2}></div>
@@ -64,7 +65,7 @@ export default function Home() {
               importante habilidade para<br/> 
               manter relacionamentos saudáveis<br/>
               e duradouros?</p>
-              <button className={styles.Dowload}>Baixar</button>
+              <Link href="/404"><button className={styles.Dowload}>Baixar</button></Link>
             </div>
           </div>
         </div>

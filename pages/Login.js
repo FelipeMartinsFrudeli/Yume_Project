@@ -3,6 +3,7 @@ import HeadComponent from './components/Head';
 import Footer from './components/Footer';
 
 import styles from '../styles/login.module.css';
+import Link from 'next/link';
 
 export default function Home() {
     return (
@@ -21,16 +22,16 @@ export default function Home() {
             <div className={styles.PasswordFrame}><div className={styles.icon}></div><input type="password" id="lname" name="lname" placeholder="Senha"/></div>
             <button className={styles.LastPassword}>Esqueçeu a senha?</button>
             <div className={styles.ButtonFrame}>
-              <button type="submit">Entrar</button>
+              <Link href="/404"><button type="submit">Entrar</button></Link>
             </div>
             <div className={styles.GoogleOption}>
-              <button type="submit">
+            <Link href="/404"><button type="submit">
                 <div className={styles.GoogleIcon}></div>
-                <p>Ou entrar com o google</p></button>
+                <p>Ou entrar com o google</p></button></Link>
             </div>
             <div className={styles.CreateAccont}>
               <p>Não possui uma conta?</p>
-              <button>Crie uma conta agora!</button></div>
+              <Link href="/404"><button>Crie uma conta agora!</button></Link></div>
           </form>
         </div>
       </div>

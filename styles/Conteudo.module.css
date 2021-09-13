@@ -86,8 +86,15 @@
     border-radius: 5em;    
     font-size: 1.5vw;
     font-weight: 600;
+    transition: 0.12s;
 }
-
+.MiniCard button:hover {
+    transition: 0.1s;  
+    font-size: 1.8vw;
+    padding: 1.2vw 1vw;
+    margin: 0.5vw 2vw;
+    font-size: 1.8vw;
+}
 
 .Collum1 .image1,.Collum1 .image2,.Collum2 .image1,.Collum2 .image2 {background-repeat: no-repeat;background-size:contain; margin: 0 2vw; width: 80%;  height:20vw;}
 .Collum1 {
@@ -97,10 +104,13 @@
 .Collum1 .image1 {
     background-image: url('../images/Conteudo/Network.svg');
     margin-top: 2vw;
+    height: 100%;
+    margin: 4vw 0 0 4vw;
 }
 .Collum1 .image2 {
     background-image: url('../images/Conteudo/Graphics.svg');
     margin-top: 2vw;
+    margin: 4vw 0 0 5vw;
 }
 
 .Collum2 {
@@ -109,8 +119,10 @@
 .Collum2 .image1 {
     background-image: url('../images/Conteudo/Speaker.svg');
     margin-top: 2vw;
+    margin: 4vw 0 0 1.5vw;
+    width: 90%;
 }
 .Collum2 .image2 {
     background-image: url('../images/Conteudo/LightBumb.svg');
-    margin-top: 2vw;
+    margin: 4vw 0 0 4.5vw;
 }

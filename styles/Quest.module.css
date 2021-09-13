@@ -1,0 +1,127 @@
+.Container h1,.Container p,.Container button{font-family: 'Poppins';}
+.Container, .Card {
+    width: 100%;
+}
+
+.Card {
+    display: flex;
+    height: 48vw;
+    padding-top: 8vw;
+}
+
+.ImageBox {
+    height: 100%;
+    width: 38vw;
+    margin: 0 0 0 2vw;
+}
+
+.Text, .RightText {
+    height: 70%;
+}
+
+.RightText {
+    padding-left: 10vw;
+}
+
+.Text h1, .RightText h1 {
+    font-size: 3.5vw;
+    padding-bottom: 1vw;
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 700;
+}
+
+.Text p, .RightText p {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    color: #444;
+}
+
+.Robot,.FingerPrint,.GhostIcon,.ChessIcon,.Rocket{background-repeat: no-repeat;background-size:contain;height: 100%;}
+
+.Robot {
+    background-image: url('../images/Desafios/Robot.svg');
+}
+
+.FingerPrint {
+    background-image: url('../images/Desafios/FingerPrint.svg');
+    padding-top: 10%;
+}
+
+.GhostIcon {
+    background-image: url('../images/Desafios/Ghost.svg');
+}
+
+.ChessIcon {
+    background-image: url('../images/Desafios/Chess.svg');
+}
+
+.Rocket {
+    background-image: url('../images/RocketIcon.svg');
+}
+
+.CardQuest {
+    width: 100%;
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+}
+
+.Options {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    height: 20vw;
+    margin-left: 24vw;
+    margin-top: 3vw;
+}
+
+.Options button {
+    font-size: 1.25vw;
+    border-radius: 1.5em;
+    height: 6vw;
+    border: none;
+    background: #ebebeb;
+    box-shadow: 0.1vw 0.3vw 0.3vw rgba(0, 0, 0, 0.25);
+}
+
+.TitleQuest, .BlackDescription, .WhiteDescription {
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 1.4vw;
+}
+
+.FinalImageBox {
+    width: 100%;
+    width: 30vw;
+    margin-left: 10%;
+}
+
+.FinalText {
+    align-self: center;
+    text-align: center;
+    height: 80%;
+    margin-left: 12vw;
+    padding-top: 2vw;
+    font-size: 1.5vw;
+}
+.submitButton {margin-left: 38vw;}
+.EbookButton, .gameStartButton, .submitButton {
+    width: 20vw;
+    height: 4.5vw;
+    border-radius: 2em;
+    border: none;
+    color: #ebebeb;
+    font-weight: 700;
+    background-color: #A561C5;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+.FinalText h1 {
+    font-family:'M PLUS Rounded 1c';
+}
+
+.FinalDescription {
+    color: #35BDC4;
+    font-size: 2.5vw;
+}

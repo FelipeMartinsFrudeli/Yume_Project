@@ -1,5 +1,6 @@
 import HeadComponent from './components/Head';
 import Footer from './components/Footer';
+import Link from 'next/link';
 
 import styles from '../styles/Desafios.module.css';
 
@@ -31,7 +32,7 @@ export default function Home() {
                     <button>Comunicação</button>
                 </div>
                 <div className={styles.PlayButton}>
-                    <button>Jogar</button>
+                    <Link href="/QuestList/Quest1"><button>Jogar</button></Link>
                 </div>
             </div>
         </div>
@@ -54,7 +55,9 @@ export default function Home() {
                             <button>Tomadas de decisões</button>
                             <button>Comunicação</button>
                         </div>
-                        <div className={styles.PlayButton}><button>Jogar</button></div>
+                        <div className={styles.PlayButton}>
+                            <Link href="/QuestList/Quest2"><button>Jogar</button></Link>
+                        </div>
                         
                     </div>
                     <div className={styles.FingerPrintImage}></div>
@@ -78,7 +81,7 @@ export default function Home() {
                       <button>Comunicação</button>
                   </div>
                   <div className={styles.PlayButton}>
-                      <button>Jogar</button>
+                        <Link href="/QuestList/Quest3"><button>Jogar</button></Link>
                       <div className={styles.AreaPart}><div className={styles.TrianglePart}></div></div>
                   </div>
               </div>
@@ -105,7 +108,9 @@ export default function Home() {
                         <button>Tomadas de decisões</button>
                         <button>Comunicação</button>
                     </div>
-                    <div className={styles.PlayButton}><button>Jogar</button></div>
+                    <div className={styles.PlayButton}>
+                        <Link href="/QuestList/Quest4"><button>Jogar</button></Link>
+                    </div>
                 </div>
                 <div className={styles.AreaChess}>
                     <div className={styles.ChessIcon}></div>

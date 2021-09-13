@@ -8,8 +8,15 @@
 
 .CardList {
     display: flex;
+    height: 12vw;
+    width: 96vw;
 }
-
+.CardSuport {
+    width: 28vw;
+}
+.CardSobre {
+    width: 20vw;
+}
 .Card, .CardContacts {
     display: flex;
     flex-direction: column;
@@ -17,7 +24,7 @@
     margin-left: 1vw;
     margin-top: 1vw;
 }
-.CardContacts {margin-left: 18vw; margin-top: 1.5vw;}
+.CardContacts {margin-left: 4vw; margin-top: 1.5vw;}
 .Card h1, .CardContacts h1 {
     font-size: 1.6vw;
     padding-top: 1vw;
@@ -33,8 +40,17 @@
     align-self: flex-start;
     border: none;
     margin-bottom: 0.1vw;
-    font-weight: 200; font-size: 1.5vw;
+    font-weight: 200; 
+    font-size: 1.5vw;
+    transition: 0.2s;
 }
+.Card button:hover {
+    transition: 0.1s;
+    margin-bottom: 0;
+    font-size: 1.55vw;
+    font-weight: 300; 
+}
+
 
 .CardContacts .box {
     width: 10vw;
@@ -51,10 +67,18 @@
     background-repeat: no-repeat;
     background-size:contain;
     width: 100%;
-    height: 100%;
 }
-.InstagramIcon {background-image: url('../images/InstagramIcon.svg');}
-.YoutubeIcon {background-image: url('../images/YoutubeIcon.svg');height: 90%;}
+.InstagramIcon {background-image: url('../images/InstagramIcon.svg');height: 80%;transition: 0.1s;}
+.InstagramIcon:hover{
+    height: 90%;
+    transition: 0.1s;
+}
+
+.YoutubeIcon {background-image: url('../images/YoutubeIcon.svg');height: 75%;transition: 0.1s;}
+.YoutubeIcon:hover{
+    height: 85%;
+    transition: 0.1s;
+}
 
 .imgLogo {
     background-image: url('../images/YumeLogo.svg');
@@ -79,16 +103,36 @@
 .bottom {
     display: flex;
     flex-direction: row;
-    height: 100%;
-    font-size: 1.2vw;
     margin-bottom: 0.2vw;
-    color: aliceblue;
-    border: 0;
-    font-weight: 300;
 }
-.bottom p {margin-right: 13.5vw; margin-left: 2vw;}
+
+.useTerms, .Privacity, .Cookies {
+    height: 2.5vw;
+    font-size: 1.2vw;
+    color: aliceblue;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
+    border: 0;
+}
+
+.useTerms {width: 12vw;}
+.Privacity {width: 16vw;}
+.Cookies {width: 12vw;}
+
+.useTerms :hover {
+    font-size: 1.3vw;
+}
+
+.bottom p {margin-right: 8%; color: aliceblue; font-size: 1.3vw; margin-left: 2%;}
 .bottom button {
     background: none;
     align-self: center;
-    margin-left: 2vw;
+    margin-left: 7%;
+    transition: 0.2s;
+}
+
+.bottom button:hover {
+    font-size: 1.26vw;
+    transition: 0.2s;
 }

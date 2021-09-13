@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css';
 
 import HeadComponent from './components/Head';
 import Footer from './components/Footer';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
             <div>
               <p className={styles.mainText}>Conectar para <a style={{color:"#37C2CA"}}>sonhar</a> </p>
               <p className={styles.Text2}>Um lugar para você desenvolver soft skills enquanto se diverte.</p>
-              <button>Saiba Mais</button>
+              <Link href="/404"><button>Saiba Mais</button></Link>
             </div>
             </div>
           </div>
@@ -27,11 +28,11 @@ export default function Home() {
             <div className={styles.VR_Image}>
             <div className={styles.triangle2}>
             </div>
-            <button className={styles.Informations}>?</button>
+            <Link href="/404"><button className={styles.Informations}>?</button></Link>
           </div>
         </div>
           <div className={styles.Video}>
-            <button>▷</button>
+          <Link href="/404"><button>▷</button></Link>
             <div>
               <p style={{color: '#A0A0A0'}}>Saiba<nobr/>&nbsp;mais</p>
               <p className={styles.text}>ASSISTIR O VIDEO</p>
@@ -86,7 +87,7 @@ export default function Home() {
             <h1>Guia de <a style={{color:'#37C2CA'}}>uso</a></h1>
             <p>Aqui você encontrará um guia de como usar a<br/> 
             plataforma da Yume e todas as suas funcionalidades!</p>
-            <button>ASSISTIR</button>
+            <Link href="/404"><button>ASSISTIR</button></Link>
           </div>
           <div className={styles.Card}>
             <div className={styles.SquareDetail}></div>
