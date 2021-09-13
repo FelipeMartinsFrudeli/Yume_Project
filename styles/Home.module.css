@@ -374,7 +374,8 @@
   background-image: url('../public/SquareDetail.svg');
   background-repeat: no-repeat;
   background-size:contain;
-  width: 40vw;
+  width: 60vw;
+  padding-top: 4vw;
   height: 40vw;
   background-color: #C79EDB;
   border-radius: 5em 0 0 5em;
@@ -408,4 +409,9 @@
   color: #444;
   font-size: 1.3vw;
 
+}
+
+.Space {
+  height: 2vw;
+  width: 100%;
 }

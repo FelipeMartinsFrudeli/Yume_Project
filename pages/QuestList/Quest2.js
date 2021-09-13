@@ -11,7 +11,7 @@ import $ from 'jquery';
 
 
 export default function Home() {
-    let ListResults = [1,2,3,3]
+    let ListResults = [1,1,1,1]
 
     var [points] = useState(1);
     function ResumeGame() {
@@ -53,9 +53,9 @@ export default function Home() {
                     id='Card1'
                     value='0'
                     Title={<h1 style={{color:'#A561C5'}}>Qual a melhor escolha?</h1>}
-                    Description={<p>Você estava conversando com seus amigos na Redegram,<br/>
-                    quando as redes sociais cairam. Você vai até a casa do seu<br/> 
-                    amigo e ele está em pânico, o que você deve fazer?</p>}
+                    Description={<p>Você estava no meio de uma investigação, quando houve o<br/>
+                    erro no banco de dados. Você entra em contato com o chefe<br/> 
+                    da perícia e ele está em pânico, o que você deve fazer?</p>}
                     OptionA={<p>Ligar para a ambulância.</p>}
                     OptionB={<p>Tentar acalmá-lo conversando com ele e contatando a família dele.</p>}
                     OptionC={<p>Dizer a ele que entrar em pânico por algo assim é desnecessário e<br/> 
@@ -80,9 +80,9 @@ export default function Home() {
                     id='Card3'
                     value='0'
                     Title={<h1 style={{color:'#A561C5'}}>Como agir?</h1>}
-                    Description={<p>Durante a sua investigação sobre os causadores da queda das<br/>
-                     redes, você se depara com um problema que a única pessoa que<br/>
-                     sabe resolver, é alguém que você já brigou anteriormente.</p>}
+                    Description={<p>Durante a criação de um novo banco de dados, você se depara com<br/>
+                     um problema que a única pessoa que sabe resolver, é alguém que<br/>
+                     você já brigou anteriormente.</p>}
                     OptionA={<p>Não pedir ajuda para essa pessoa e tentar resolver sozinho</p>}
                     OptionB={<p>Entrar em contato com a pessoa e humildimente pedir ajuda nesse<br/>
                     problema, evitando confrontos sobre o ocorrido.</p>}
@@ -114,7 +114,7 @@ export default function Home() {
                         <p>Parabéns, você teve um ótimo desempenho!<br/> 
                         Que tal aprender um pouco mais, lendo os<br/>
                         materiais que disponibilizamos?</p>
-                        <button className={style.EbookButton}>Ler Ebook</button>
+                        <Link href="/Conteudos"><button className={style.EbookButton}>Ler Ebook</button></Link>
                     </div>
                     <div className={style.FinalImageBox}>
                         <div className={style.Rocket}></div>

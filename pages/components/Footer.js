@@ -28,7 +28,7 @@ export default function Home() {
           <h1>Contatos</h1>
           <div className={styles.box}>
           <Link href="https://www.instagram.com/plataformayume/"><button><div className={styles.InstagramIcon}></div></button></Link>
-            <Link href="/404" ><button><div className={styles.YoutubeIcon}></div></button></Link>
+            <Link href="https://www.youtube.com/channel/UCSzIkrw9IifSI89yDjy1BTg" ><button><div className={styles.YoutubeIcon}></div></button></Link>
           </div>
         </div>
       </div>

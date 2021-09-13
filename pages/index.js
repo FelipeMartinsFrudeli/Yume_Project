@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
           <div className={styles.Video}>
-          <Link href="/404"><button>▷</button></Link>
+          <Link href="https://www.youtube.com/watch?v=TF1oH2UC1l4"><button>▷</button></Link>
             <div>
               <p style={{color: '#A0A0A0'}}>Saiba<nobr/>&nbsp;mais</p>
               <p className={styles.text}>ASSISTIR O VIDEO</p>
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <div className={styles.Card}>
               <div className={styles.Picture2}></div>
-              <p>A revolta dos peões</p>
+              <p>Banco de digitais</p>
             </div>
             <div className={styles.Card}>
               <div className={styles.Picture3}></div>
@@ -84,27 +84,21 @@ export default function Home() {
         </div>
         <div className={styles.useGuide}>
           <div className={styles.text}>
-            <h1>Guia de <a style={{color:'#37C2CA'}}>uso</a></h1>
-            <p>Aqui você encontrará um guia de como usar a<br/> 
-            plataforma da Yume e todas as suas funcionalidades!</p>
-            <Link href="/404"><button>ASSISTIR</button></Link>
+            <h1>Saiba mais</h1>
+            <p>Aqui você encontrará um pouco mais sobre a <br/> 
+            plataforma da Yume e todas as suas funcionalidades! </p>
+            <Link href="https://www.youtube.com/watch?v=TF1oH2UC1l4"><button>ASSISTIR</button></Link>
           </div>
           <div className={styles.Card}>
-            <div className={styles.SquareDetail}></div>
-            <div className={styles.VideoCard}></div>
+            <div className={styles.SquareDetail}>
+            <iframe width="90%" height="90%" src="https://www.youtube.com/embed/TF1oH2UC1l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div className={styles.VideoCard}>
+              
+            </div>
           </div>
         </div>
-        <div className={styles.Polygon4}></div>
-        <div className={styles.Vr_Project}>
-          <div className={styles.image}></div>
-          <div className={styles.TextSite}>
-            <h1>Realidade <a style={{color:'#A561C5'}}>Virtual</a></h1>
-            <p>Nos desafios da Yume, você pode interagir com<br/> 
-              cenários desafiadores utilizando REALIDADE VIRTUAL,<br/> 
-              que tornará sua experiência e seu aprendizado<br/> 
-              inesquecíveis. </p>
-          </div>
-        </div>
+        <div className={styles.Space}></div>
 
         <div className={styles.Footer}></div>
       </main>

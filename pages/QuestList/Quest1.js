@@ -10,7 +10,7 @@ import React,{ useState } from 'react';
 import $ from 'jquery';
 
 export default function Home() {
-    let ListResults = [1,2,3,3]
+    let ListResults = [1,1,1,1]
 
     var [points] = useState(1);
     function ResumeGame() {
@@ -114,7 +114,7 @@ export default function Home() {
                         <p>Parabéns, você teve um ótimo desempenho!<br/> 
                         Que tal aprender um pouco mais, lendo os<br/>
                         materiais que disponibilizamos?</p>
-                        <button className={style.EbookButton}>Ler Ebook</button>
+                        <Link href="/Conteudos"><button className={style.EbookButton}>Ler Ebook</button></Link>
                     </div>
                     <div className={style.FinalImageBox}>
                         <div className={style.Rocket}></div>
