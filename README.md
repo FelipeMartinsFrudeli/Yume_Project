@@ -20,7 +20,7 @@ Pensando nisso surgiu a **Yume**, uma **plataforma de ensino** e aprendizagem de
 * Rode os seguintes comando npm `run dev`
 ou 
 `yarn dev`
-* Abra http: // localhost: 3000 com seu navegador para ver o resultado dessa incrível plataforma.
+* Abra `http: // localhost: 3000` com seu navegador para ver o resultado dessa incrível plataforma.
 
 ## Tecnologias
 
@@ -30,7 +30,7 @@ Foi usado a ferramenta figma para o desenvolvimento das telas, ebooks e de artes
 
 
 #### **2. Desenvolvimento do Site** 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Foi usado 
 <br>
 
 
@@ -38,8 +38,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 * Felipe Martins Frudeli
 * Geovani Porto de Deus
-* Hanna Vitória Oliveira Silva
-* Renan xxxxxxxxxxxxxxxxxxxxxxxx
+* Hanna Vitória de Oliveira Silva
+* Renan Rodrigues dos Santos
 * Yasmin Kaline de Carvalho Silva
 
 <hr>
